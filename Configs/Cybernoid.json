@@ -5,13 +5,13 @@
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 22689,
+                "ViewAddress": 19715,
                 "ViewAddressBank": 0
             },
             {
-                "Enabled": false,
-                "ViewAddress": 0,
-                "ViewAddressBank": -1
+                "Enabled": true,
+                "ViewAddress": 33731,
+                "ViewAddressBank": 0
             },
             {
                 "Enabled": false,
