@@ -1,11 +1,11 @@
 {
     "Machine": "",
-    "Name": "Cybernoid",
+    "Name": "Paradroid",
     "Options": {
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 14305,
+                "ViewAddress": 28352,
                 "ViewAddressBank": 0
             },
             {
@@ -25,5 +25,5 @@
             }
         ]
     },
-    "SnapshotFile": "Cybernoid.prg"
+    "SnapshotFile": "Paradroid.prg"
 }

@@ -1,11 +1,11 @@
 {
     "Machine": "",
-    "Name": "Cybernoid",
+    "Name": "Wizball",
     "Options": {
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 14305,
+                "ViewAddress": 31901,
                 "ViewAddressBank": 0
             },
             {
@@ -25,5 +25,5 @@
             }
         ]
     },
-    "SnapshotFile": "Cybernoid.prg"
+    "SnapshotFile": "Wizball.prg"
 }
