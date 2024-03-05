@@ -1,0 +1,29 @@
+{
+    "Machine": "",
+    "Name": "Cybernoid 2",
+    "Options": {
+        "ViewConfigs": [
+            {
+                "Enabled": true,
+                "ViewAddress": 22013,
+                "ViewAddressBank": 0
+            },
+            {
+                "Enabled": false,
+                "ViewAddress": 0,
+                "ViewAddressBank": -1
+            },
+            {
+                "Enabled": false,
+                "ViewAddress": 0,
+                "ViewAddressBank": -1
+            },
+            {
+                "Enabled": false,
+                "ViewAddress": 0,
+                "ViewAddressBank": -1
+            }
+        ]
+    },
+    "SnapshotFile": "Cybernoid 2.prg"
+}
