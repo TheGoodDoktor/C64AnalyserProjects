@@ -1,12 +1,12 @@
 {
     "Machine": "",
-    "Name": "Uridium",
+    "Name": "Sanxion",
     "Options": {
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 16303,
-                "ViewAddressBank": 0
+                "ViewAddress": 0,
+                "ViewAddressBank": -1
             },
             {
                 "Enabled": false,
@@ -25,10 +25,5 @@
             }
         ]
     },
-    "Snapshot": {
-        "DisplayName": "Uridium",
-        "FileName": "Uridium.prg",
-        "ListName": "",
-        "Type": 5
-    }
+    "SnapshotFile": "Sanxion.tap"
 }
