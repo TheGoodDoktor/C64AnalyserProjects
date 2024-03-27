@@ -123,22 +123,19 @@
                 },
                 {
                     "Address": 256,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "OperandType": 1
                 },
                 {
                     "Address": 258,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "Flags": 8,
                     "OperandType": 2
                 },
                 {
                     "Address": 261,
-                    "ByteSize": 2,
+                    "ByteSize": 3,
                     "OperandType": 2
-                },
-                {
-                    "Address": 263,
-                    "ByteSize": 2
                 },
                 {
                     "Address": 265,
@@ -998,6 +995,16 @@
                     "InstructionAddressRef": 11206656
                 },
                 {
+                    "Address": 260,
+                    "DataType": 11,
+                    "InstructionAddressRef": 16908288
+                },
+                {
+                    "Address": 264,
+                    "DataType": 11,
+                    "InstructionAddressRef": 17235968
+                },
+                {
                     "Address": 389,
                     "DataType": 11,
                     "InstructionAddressRef": 25427968
@@ -1094,6 +1101,12 @@
                     "Name": "zp_10"
                 },
                 {
+                    "Address": 17,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_11"
+                },
+                {
                     "Address": 18,
                     "Global": true,
                     "LabelType": 0,
@@ -1148,6 +1161,12 @@
                     "Name": "data_001A"
                 },
                 {
+                    "Address": 27,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_1B"
+                },
+                {
                     "Address": 28,
                     "Global": true,
                     "LabelType": 0,
@@ -1158,6 +1177,18 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "data_001E"
+                },
+                {
+                    "Address": 32,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_20"
+                },
+                {
+                    "Address": 33,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_21"
                 },
                 {
                     "Address": 34,
@@ -1182,6 +1213,24 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_25"
+                },
+                {
+                    "Address": 38,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_26"
+                },
+                {
+                    "Address": 41,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_29"
+                },
+                {
+                    "Address": 42,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_2A"
                 },
                 {
                     "Address": 43,
@@ -1242,6 +1291,12 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_34"
+                },
+                {
+                    "Address": 53,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_35"
                 },
                 {
                     "Address": 55,
@@ -1322,10 +1377,34 @@
                     "Name": "zp_4A"
                 },
                 {
+                    "Address": 75,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_4B"
+                },
+                {
                     "Address": 77,
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_4D"
+                },
+                {
+                    "Address": 78,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_4E"
+                },
+                {
+                    "Address": 80,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_50"
+                },
+                {
+                    "Address": 81,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_51"
                 },
                 {
                     "Address": 82,
@@ -1346,6 +1425,12 @@
                     "Name": "zp_54"
                 },
                 {
+                    "Address": 85,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_55"
+                },
+                {
                     "Address": 86,
                     "Global": true,
                     "LabelType": 0,
@@ -1356,6 +1441,30 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_58"
+                },
+                {
+                    "Address": 89,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_59"
+                },
+                {
+                    "Address": 90,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_5A"
+                },
+                {
+                    "Address": 91,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_5B"
+                },
+                {
+                    "Address": 92,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_5C"
                 },
                 {
                     "Address": 93,
@@ -1500,6 +1609,30 @@
                     "Name": "label_0079"
                 },
                 {
+                    "Address": 128,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_80"
+                },
+                {
+                    "Address": 129,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_81"
+                },
+                {
+                    "Address": 130,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_82"
+                },
+                {
+                    "Address": 131,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_83"
+                },
+                {
                     "Address": 135,
                     "Global": true,
                     "LabelType": 0,
@@ -1517,6 +1650,24 @@
                     "Name": "label_008A"
                 },
                 {
+                    "Address": 141,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_8D"
+                },
+                {
+                    "Address": 142,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_8E"
+                },
+                {
+                    "Address": 143,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_8F"
+                },
+                {
                     "Address": 144,
                     "Global": true,
                     "LabelType": 0,
@@ -1527,6 +1678,18 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_91"
+                },
+                {
+                    "Address": 148,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_94"
+                },
+                {
+                    "Address": 149,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_95"
                 },
                 {
                     "Address": 152,
@@ -2017,6 +2180,12 @@
                     "Name": "data_0200"
                 },
                 {
+                    "Address": 544,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0220"
+                },
+                {
                     "Address": 631,
                     "Global": true,
                     "LabelType": 0,
@@ -2135,6 +2304,12 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "data_02A6"
+                },
+                {
+                    "Address": 720,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_02D0"
                 },
                 {
                     "Address": 768,
@@ -8605,6 +8780,203 @@
                     "OperandType": 2
                 },
                 {
+                    "Address": 305,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 307,
+                    "ByteSize": 2
+                },
+                {
+                    "Address": 309,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 324,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 326,
+                    "ByteSize": 2
+                },
+                {
+                    "Address": 328,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 350,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 352,
+                    "ByteSize": 2
+                },
+                {
+                    "Address": 354,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 356,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 358,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 360,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 362,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 364,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 367,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 369,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 371,
+                    "ByteSize": 2
+                },
+                {
+                    "Address": 373,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 375,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 378,
+                    "ByteSize": 1
+                },
+                {
+                    "Address": 379,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 381,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 384,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 387,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 389,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 392,
+                    "ByteSize": 3,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 395,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 398,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 400,
+                    "ByteSize": 2
+                },
+                {
+                    "Address": 402,
+                    "ByteSize": 2,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 404,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 407,
+                    "ByteSize": 1
+                },
+                {
+                    "Address": 408,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 410,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 413,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 416,
+                    "ByteSize": 2,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 418,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 421,
+                    "ByteSize": 3,
+                    "OperandType": 2
+                },
+                {
+                    "Address": 424,
+                    "ByteSize": 2
+                },
+                {
+                    "Address": 426,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
+                    "Address": 429,
+                    "ByteSize": 3,
+                    "OperandType": 1
+                },
+                {
                     "Address": 432,
                     "ByteSize": 2,
                     "OperandType": 1
@@ -10008,10 +10380,29 @@
                     "Name": "label_1D31"
                 },
                 {
-                    "Address": 383,
-                    "Global": true,
-                    "LabelType": 0,
-                    "Name": "data_1D7F"
+                    "Address": 324,
+                    "LabelType": 2,
+                    "Name": "label_1D44"
+                },
+                {
+                    "Address": 350,
+                    "LabelType": 2,
+                    "Name": "label_1D5E"
+                },
+                {
+                    "Address": 375,
+                    "LabelType": 2,
+                    "Name": "label_1D77"
+                },
+                {
+                    "Address": 395,
+                    "LabelType": 2,
+                    "Name": "label_1D8B"
+                },
+                {
+                    "Address": 424,
+                    "LabelType": 2,
+                    "Name": "label_1DA8"
                 },
                 {
                     "Address": 432,
@@ -16493,25 +16884,30 @@
                 },
                 {
                     "Address": 1006,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "add 7"
                 },
                 {
                     "Address": 1008,
                     "ByteSize": 2,
+                    "Comment": "store",
                     "OperandType": 1
                 },
                 {
                     "Address": 1010,
                     "ByteSize": 2,
+                    "Comment": "read high byte",
                     "OperandType": 1
                 },
                 {
                     "Address": 1012,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "add carry"
                 },
                 {
                     "Address": 1014,
-                    "ByteSize": 1
+                    "ByteSize": 1,
+                    "Comment": "shift right 3 to divide by 8"
                 },
                 {
                     "Address": 1015,
@@ -16538,7 +16934,8 @@
                 },
                 {
                     "Address": 1023,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "mask bit of high byte"
                 }
             ],
             "DataInfo": [
@@ -16777,7 +17174,7 @@
                 {
                     "Address": 1003,
                     "LabelType": 1,
-                    "Name": "function_2BEB"
+                    "Name": "CharScrollMap"
                 }
             ],
             "PageId": 10
@@ -16787,20 +17184,24 @@
                 {
                     "Address": 1,
                     "ByteSize": 2,
+                    "Comment": "store",
                     "OperandType": 1
                 },
                 {
                     "Address": 3,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "char map page"
                 },
                 {
                     "Address": 5,
                     "ByteSize": 2,
+                    "Comment": "or in bit 0 of shifted down high bit",
                     "OperandType": 1
                 },
                 {
                     "Address": 7,
                     "ByteSize": 2,
+                    "Comment": "store src high byte",
                     "OperandType": 1
                 },
                 {
@@ -16820,7 +17221,8 @@
                 },
                 {
                     "Address": 17,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "screen memory page"
                 },
                 {
                     "Address": 19,
@@ -16829,7 +17231,9 @@
                 },
                 {
                     "Address": 22,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "offset to the start of scrolling area - 6 char lines down",
+                    "OperandType": 3
                 },
                 {
                     "Address": 24,
@@ -16838,11 +17242,15 @@
                 },
                 {
                     "Address": 27,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "vertical count",
+                    "OperandType": 3
                 },
                 {
                     "Address": 29,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "Comment": "horizontal loop count",
+                    "OperandType": 3
                 },
                 {
                     "Address": 31,
@@ -16860,7 +17268,8 @@
                 },
                 {
                     "Address": 37,
-                    "ByteSize": 1
+                    "ByteSize": 1,
+                    "Comment": "dec loop counter"
                 },
                 {
                     "Address": 38,
@@ -16930,7 +17339,8 @@
                 },
                 {
                     "Address": 69,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "OperandType": 3
                 },
                 {
                     "Address": 71,
@@ -17014,7 +17424,7 @@
                 {
                     "Address": 99,
                     "ByteSize": 2,
-                    "OperandType": 1
+                    "OperandType": 3
                 },
                 {
                     "Address": 101,
@@ -19082,35 +19492,41 @@
                 {
                     "Address": 29,
                     "LabelType": 2,
-                    "Name": "label_2C1D"
+                    "Name": "v_loop"
                 },
                 {
                     "Address": 31,
                     "LabelType": 2,
-                    "Name": "label_2C1F"
+                    "Name": "h_loop"
+                },
+                {
+                    "Address": 32,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "operand_src_l"
                 },
                 {
                     "Address": 33,
                     "Global": true,
                     "LabelType": 0,
-                    "Name": "operand_2C21"
+                    "Name": "operand_src_h"
                 },
                 {
                     "Address": 35,
                     "Global": true,
                     "LabelType": 0,
-                    "Name": "operand_2C23"
+                    "Name": "operand_dest_l"
                 },
                 {
                     "Address": 36,
                     "Global": true,
                     "LabelType": 0,
-                    "Name": "operand_2C24"
+                    "Name": "operand_dest_h"
                 },
                 {
                     "Address": 66,
                     "LabelType": 2,
-                    "Name": "label_2C42"
+                    "Name": "exit_loop"
                 },
                 {
                     "Address": 102,
@@ -20957,13 +21373,8 @@
                 },
                 {
                     "Address": 715,
-                    "ByteSize": 2,
+                    "ByteSize": 3,
                     "OperandType": 1
-                },
-                {
-                    "Address": 717,
-                    "ByteSize": 2,
-                    "OperandType": 2
                 },
                 {
                     "Address": 719,
@@ -20972,16 +21383,16 @@
                 },
                 {
                     "Address": 722,
-                    "ByteSize": 2,
+                    "ByteSize": 1,
                     "OperandType": 2
                 },
                 {
                     "Address": 724,
-                    "ByteSize": 2
+                    "ByteSize": 1
                 },
                 {
                     "Address": 726,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "OperandType": 1
                 },
                 {
@@ -20994,26 +21405,16 @@
                 },
                 {
                     "Address": 731,
-                    "ByteSize": 2,
-                    "OperandType": 2
-                },
-                {
-                    "Address": 733,
                     "ByteSize": 3,
-                    "OperandType": 1
+                    "OperandType": 2
                 },
                 {
                     "Address": 736,
-                    "ByteSize": 2
-                },
-                {
-                    "Address": 738,
-                    "ByteSize": 2,
-                    "OperandType": 2
+                    "ByteSize": 3
                 },
                 {
                     "Address": 740,
-                    "ByteSize": 2
+                    "ByteSize": 1
                 },
                 {
                     "Address": 742,
@@ -21022,24 +21423,22 @@
                 },
                 {
                     "Address": 745,
-                    "ByteSize": 1
-                },
-                {
-                    "Address": 746,
-                    "ByteSize": 2
+                    "ByteSize": 3
                 },
                 {
                     "Address": 748,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "OperandType": 1
                 },
                 {
-                    "Address": 751,
-                    "ByteSize": 1
+                    "Address": 750,
+                    "ByteSize": 2,
+                    "Flags": 1
                 },
                 {
                     "Address": 752,
-                    "ByteSize": 1
+                    "ByteSize": 1,
+                    "Flags": 1
                 },
                 {
                     "Address": 753,
@@ -21048,21 +21447,17 @@
                 },
                 {
                     "Address": 755,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "OperandType": 1
                 },
                 {
                     "Address": 758,
-                    "ByteSize": 2
+                    "ByteSize": 1
                 },
                 {
                     "Address": 760,
-                    "ByteSize": 2,
+                    "ByteSize": 3,
                     "OperandType": 2
-                },
-                {
-                    "Address": 762,
-                    "ByteSize": 2
                 },
                 {
                     "Address": 764,
@@ -21071,19 +21466,12 @@
                 },
                 {
                     "Address": 767,
-                    "ByteSize": 1
-                },
-                {
-                    "Address": 768,
-                    "ByteSize": 1
+                    "ByteSize": 2,
+                    "OperandType": 1
                 },
                 {
                     "Address": 769,
-                    "ByteSize": 1
-                },
-                {
-                    "Address": 770,
-                    "ByteSize": 1
+                    "ByteSize": 2
                 },
                 {
                     "Address": 771,
@@ -21095,21 +21483,18 @@
                 },
                 {
                     "Address": 773,
-                    "ByteSize": 1
-                },
-                {
-                    "Address": 774,
                     "ByteSize": 2,
                     "OperandType": 1
                 },
                 {
                     "Address": 776,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "OperandType": 1
                 },
                 {
                     "Address": 779,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "OperandType": 1
                 },
                 {
                     "Address": 781,
@@ -21538,6 +21923,73 @@
                     "OperandType": 2
                 }
             ],
+            "DataInfo": [
+                {
+                    "Address": 718,
+                    "DataType": 11,
+                    "InstructionAddressRef": 852295680
+                },
+                {
+                    "Address": 723,
+                    "DataType": 11,
+                    "InstructionAddressRef": 852623360
+                },
+                {
+                    "Address": 725,
+                    "DataType": 11,
+                    "InstructionAddressRef": 852754432
+                },
+                {
+                    "Address": 728,
+                    "DataType": 11,
+                    "InstructionAddressRef": 852885504
+                },
+                {
+                    "Address": 734,
+                    "DataType": 11,
+                    "InstructionAddressRef": 853344256
+                },
+                {
+                    "Address": 735,
+                    "DataType": 11,
+                    "InstructionAddressRef": 853344256
+                },
+                {
+                    "Address": 739,
+                    "DataType": 11,
+                    "InstructionAddressRef": 853671936
+                },
+                {
+                    "Address": 741,
+                    "DataType": 11,
+                    "InstructionAddressRef": 853803008
+                },
+                {
+                    "Address": 757,
+                    "DataType": 11,
+                    "InstructionAddressRef": 854786048
+                },
+                {
+                    "Address": 759,
+                    "DataType": 11,
+                    "InstructionAddressRef": 854982656
+                },
+                {
+                    "Address": 763,
+                    "DataType": 11,
+                    "InstructionAddressRef": 855244800
+                },
+                {
+                    "Address": 775,
+                    "DataType": 11,
+                    "InstructionAddressRef": 856031232
+                },
+                {
+                    "Address": 778,
+                    "DataType": 11,
+                    "InstructionAddressRef": 856162304
+                }
+            ],
             "LabelInfo": [
                 {
                     "Address": 0,
@@ -21790,11 +22242,6 @@
                     "Name": "label_32E9"
                 },
                 {
-                    "Address": 746,
-                    "LabelType": 2,
-                    "Name": "label_32EA"
-                },
-                {
                     "Address": 748,
                     "LabelType": 2,
                     "Name": "label_32EC"
@@ -21815,6 +22262,12 @@
                     "Name": "label_3318"
                 },
                 {
+                    "Address": 793,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "operand_3319"
+                },
+                {
                     "Address": 796,
                     "LabelType": 2,
                     "Name": "label_331C"
@@ -21823,6 +22276,11 @@
                     "Address": 814,
                     "LabelType": 2,
                     "Name": "label_332E"
+                },
+                {
+                    "Address": 837,
+                    "LabelType": 2,
+                    "Name": "label_3345"
                 },
                 {
                     "Address": 849,
@@ -21863,6 +22321,14 @@
             "PageId": 12
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 15,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_340F"
+                }
+            ],
             "PageId": 13
         },
         {
@@ -25958,6 +26424,90 @@
         },
         {
             "LabelInfo": [
+                {
+                    "Address": 240,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_48F0"
+                },
+                {
+                    "Address": 280,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4918"
+                },
+                {
+                    "Address": 360,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4968"
+                },
+                {
+                    "Address": 400,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4990"
+                },
+                {
+                    "Address": 440,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_49B8"
+                },
+                {
+                    "Address": 480,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_49E0"
+                },
+                {
+                    "Address": 520,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4A08"
+                },
+                {
+                    "Address": 560,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4A30"
+                },
+                {
+                    "Address": 600,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4A58"
+                },
+                {
+                    "Address": 640,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4A80"
+                },
+                {
+                    "Address": 680,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4AA8"
+                },
+                {
+                    "Address": 720,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4AD0"
+                },
+                {
+                    "Address": 760,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4AF8"
+                },
+                {
+                    "Address": 840,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_4B48"
+                },
                 {
                     "Address": 880,
                     "Global": true,
@@ -43480,11 +44030,55 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "data_8003"
+                },
+                {
+                    "Address": 525,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_820D"
+                },
+                {
+                    "Address": 718,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_82CE"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_82D3"
                 }
             ],
             "PageId": 32
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 16,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8410"
+                },
+                {
+                    "Address": 55,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8437"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_84D3"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_86D3"
+                }
+            ],
             "PageId": 33
         },
         {
@@ -43714,21 +44308,309 @@
                     "PaletteNo": 0
                 }
             ],
+            "LabelInfo": [
+                {
+                    "Address": 8,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8808"
+                },
+                {
+                    "Address": 11,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_880B"
+                },
+                {
+                    "Address": 18,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8812"
+                },
+                {
+                    "Address": 30,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_881E"
+                },
+                {
+                    "Address": 34,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8822"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_88D3"
+                },
+                {
+                    "Address": 467,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_89D3"
+                },
+                {
+                    "Address": 554,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8A2A"
+                },
+                {
+                    "Address": 555,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8A2B"
+                },
+                {
+                    "Address": 568,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8A38"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8AD3"
+                }
+            ],
             "PageId": 34
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 25,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8C19"
+                },
+                {
+                    "Address": 40,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8C28"
+                },
+                {
+                    "Address": 45,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8C2D"
+                },
+                {
+                    "Address": 208,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8CD0"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8CD3"
+                },
+                {
+                    "Address": 535,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8E17"
+                },
+                {
+                    "Address": 558,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8E2E"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_8ED3"
+                }
+            ],
             "PageId": 35
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 27,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_901B"
+                },
+                {
+                    "Address": 39,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9027"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_90D3"
+                },
+                {
+                    "Address": 526,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_920E"
+                },
+                {
+                    "Address": 533,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9215"
+                },
+                {
+                    "Address": 560,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9230"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_92D3"
+                }
+            ],
             "PageId": 36
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 16,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9410"
+                },
+                {
+                    "Address": 32,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9420"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_94D3"
+                },
+                {
+                    "Address": 523,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_960B"
+                },
+                {
+                    "Address": 541,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_961D"
+                },
+                {
+                    "Address": 549,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9625"
+                },
+                {
+                    "Address": 561,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9631"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_96D3"
+                }
+            ],
             "PageId": 37
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 9,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9809"
+                },
+                {
+                    "Address": 204,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_98CC"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_98D3"
+                },
+                {
+                    "Address": 467,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_99D3"
+                },
+                {
+                    "Address": 531,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9A13"
+                },
+                {
+                    "Address": 563,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9A33"
+                },
+                {
+                    "Address": 657,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9A91"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9AD3"
+                }
+            ],
             "PageId": 38
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 36,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9C24"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9CD3"
+                },
+                {
+                    "Address": 564,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9E34"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_9ED3"
+                }
+            ],
             "PageId": 39
         },
         {
@@ -46900,16 +47782,286 @@
         {
             "LabelInfo": [
                 {
+                    "Address": 6,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A006"
+                },
+                {
+                    "Address": 12,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A00C"
+                },
+                {
+                    "Address": 14,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A00E"
+                },
+                {
+                    "Address": 17,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A011"
+                },
+                {
+                    "Address": 23,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A017"
+                },
+                {
+                    "Address": 25,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A019"
+                },
+                {
+                    "Address": 31,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A01F"
+                },
+                {
+                    "Address": 34,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A022"
+                },
+                {
+                    "Address": 54,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A036"
+                },
+                {
+                    "Address": 211,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A0D3"
+                },
+                {
+                    "Address": 521,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A209"
+                },
+                {
+                    "Address": 522,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A20A"
+                },
+                {
+                    "Address": 524,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A20C"
+                },
+                {
+                    "Address": 527,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A20F"
+                },
+                {
+                    "Address": 529,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A211"
+                },
+                {
+                    "Address": 531,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A213"
+                },
+                {
+                    "Address": 532,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A214"
+                },
+                {
+                    "Address": 533,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A215"
+                },
+                {
+                    "Address": 534,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A216"
+                },
+                {
+                    "Address": 536,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A218"
+                },
+                {
+                    "Address": 538,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A21A"
+                },
+                {
+                    "Address": 539,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A21B"
+                },
+                {
+                    "Address": 540,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A21C"
+                },
+                {
+                    "Address": 541,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A21D"
+                },
+                {
+                    "Address": 543,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A21F"
+                },
+                {
+                    "Address": 545,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A221"
+                },
+                {
+                    "Address": 547,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A223"
+                },
+                {
+                    "Address": 548,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A224"
+                },
+                {
+                    "Address": 550,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A226"
+                },
+                {
+                    "Address": 551,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A227"
+                },
+                {
+                    "Address": 553,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A229"
+                },
+                {
+                    "Address": 554,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A22A"
+                },
+                {
+                    "Address": 556,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A22C"
+                },
+                {
+                    "Address": 557,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A22D"
+                },
+                {
+                    "Address": 559,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A22F"
+                },
+                {
+                    "Address": 560,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A230"
+                },
+                {
+                    "Address": 562,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A232"
+                },
+                {
+                    "Address": 563,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A233"
+                },
+                {
+                    "Address": 565,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A235"
+                },
+                {
+                    "Address": 567,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A237"
+                },
+                {
+                    "Address": 598,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A256"
+                },
+                {
                     "Address": 634,
                     "Global": true,
                     "LabelType": 0,
                     "Name": "data_A27A"
+                },
+                {
+                    "Address": 715,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A2CB"
+                },
+                {
+                    "Address": 721,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A2D1"
+                },
+                {
+                    "Address": 723,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A2D3"
                 }
             ],
             "PageId": 56
         },
         {
             "LabelInfo": [
+                {
+                    "Address": 0,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A400"
+                },
                 {
                     "Address": 16,
                     "Global": true,
@@ -46927,6 +48079,30 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "data_A480"
+                },
+                {
+                    "Address": 160,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A4A0"
+                },
+                {
+                    "Address": 200,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A4C8"
+                },
+                {
+                    "Address": 256,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A500"
+                },
+                {
+                    "Address": 280,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_A518"
                 }
             ],
             "PageId": 57
@@ -49283,6 +50459,18 @@
             ],
             "LabelInfo": [
                 {
+                    "Address": 509,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_FDFD"
+                },
+                {
+                    "Address": 766,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_FEFE"
+                },
+                {
                     "Address": 1022,
                     "Global": true,
                     "LabelType": 0,
@@ -50234,7 +51422,13 @@
         0,
         4288675753,
         4283280470,
-        4294967295
+        4294967295,
+        0,
+        4288675753,
+        4278190080,
+        4294967295,
+        0,
+        4288675753
     ],
     "PaletteEntries": [
         {
@@ -50324,6 +51518,14 @@
         {
             "FirstColourIndex": 74,
             "NoColours": 4
+        },
+        {
+            "FirstColourIndex": 78,
+            "NoColours": 4
+        },
+        {
+            "FirstColourIndex": 82,
+            "NoColours": 2
         }
     ]
 }
