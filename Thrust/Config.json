@@ -1,12 +1,12 @@
 {
     "Machine": "",
-    "Name": "Cybernoid",
+    "Name": "Thrust",
     "Options": {
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 17957,
-                "ViewAddressBank": 0
+                "ViewAddress": 42931,
+                "ViewAddressBank": 4
             },
             {
                 "Enabled": false,
@@ -25,5 +25,5 @@
             }
         ]
     },
-    "SnapshotFile": "Cybernoid.prg"
+    "SnapshotFile": "Thrust.prg"
 }

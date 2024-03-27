@@ -1,12 +1,12 @@
 {
     "Machine": "",
-    "Name": "Cybernoid",
+    "Name": "Armalyte",
     "Options": {
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 17957,
-                "ViewAddressBank": 0
+                "ViewAddress": 46582,
+                "ViewAddressBank": 3
             },
             {
                 "Enabled": false,
@@ -25,5 +25,5 @@
             }
         ]
     },
-    "SnapshotFile": "Cybernoid.prg"
+    "SnapshotFile": "Armalyte.prg"
 }

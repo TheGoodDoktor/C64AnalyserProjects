@@ -385,11 +385,7 @@
                 },
                 {
                     "Address": 379,
-                    "ByteSize": 1
-                },
-                {
-                    "Address": 380,
-                    "ByteSize": 1,
+                    "ByteSize": 2,
                     "OperandType": 1
                 },
                 {
@@ -1381,6 +1377,12 @@
                     "Name": "zp_42"
                 },
                 {
+                    "Address": 71,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_47"
+                },
+                {
                     "Address": 72,
                     "Global": true,
                     "LabelType": 0,
@@ -1403,6 +1405,12 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_50"
+                },
+                {
+                    "Address": 83,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_53"
                 },
                 {
                     "Address": 84,
@@ -1553,6 +1561,12 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_71"
+                },
+                {
+                    "Address": 114,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_72"
                 },
                 {
                     "Address": 115,
@@ -1712,6 +1726,30 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "zp_C0"
+                },
+                {
+                    "Address": 193,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_C1"
+                },
+                {
+                    "Address": 194,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_C2"
+                },
+                {
+                    "Address": 195,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_C3"
+                },
+                {
+                    "Address": 196,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "zp_C4"
                 },
                 {
                     "Address": 197,
@@ -2112,11 +2150,6 @@
                     "Name": "label_0179"
                 },
                 {
-                    "Address": 380,
-                    "LabelType": 2,
-                    "Name": "label_017C"
-                },
-                {
                     "Address": 387,
                     "LabelType": 2,
                     "Name": "label_0183"
@@ -2179,6 +2212,12 @@
                     "Name": "data_01FB"
                 },
                 {
+                    "Address": 508,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_01FC"
+                },
+                {
                     "Address": 509,
                     "Global": true,
                     "LabelType": 0,
@@ -2215,6 +2254,30 @@
                     "Name": "data_0278"
                 },
                 {
+                    "Address": 641,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0281"
+                },
+                {
+                    "Address": 642,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0282"
+                },
+                {
+                    "Address": 643,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0283"
+                },
+                {
+                    "Address": 644,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0284"
+                },
+                {
                     "Address": 646,
                     "Global": true,
                     "LabelType": 0,
@@ -2245,6 +2308,12 @@
                     "Name": "data_028A"
                 },
                 {
+                    "Address": 651,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_028B"
+                },
+                {
                     "Address": 652,
                     "Global": true,
                     "LabelType": 0,
@@ -2261,6 +2330,24 @@
                     "Global": true,
                     "LabelType": 0,
                     "Name": "data_028E"
+                },
+                {
+                    "Address": 655,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_028F"
+                },
+                {
+                    "Address": 656,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0290"
+                },
+                {
+                    "Address": 657,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_0291"
                 },
                 {
                     "Address": 658,
@@ -11463,6 +11550,12 @@
                     "Name": "label_354D"
                 },
                 {
+                    "Address": 364,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_356C"
+                },
+                {
                     "Address": 365,
                     "LabelType": 2,
                     "Name": "label_356D"
@@ -18459,15 +18552,23 @@
                 },
                 {
                     "Address": 820,
-                    "ByteSize": 2,
+                    "ByteSize": 1,
                     "Comment": "backup Y",
                     "OperandType": 1
                 },
                 {
+                    "Address": 821,
+                    "ByteSize": 1
+                },
+                {
                     "Address": 822,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "Comment": "y coord",
                     "OperandType": 1
+                },
+                {
+                    "Address": 824,
+                    "ByteSize": 1
                 },
                 {
                     "Address": 825,
@@ -18476,18 +18577,30 @@
                 },
                 {
                     "Address": 826,
-                    "ByteSize": 2
+                    "ByteSize": 1
+                },
+                {
+                    "Address": 827,
+                    "ByteSize": 1
                 },
                 {
                     "Address": 828,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "Comment": "x coord",
                     "OperandType": 1
                 },
                 {
+                    "Address": 830,
+                    "ByteSize": 1
+                },
+                {
                     "Address": 831,
-                    "ByteSize": 2,
+                    "ByteSize": 1,
                     "OperandType": 1
+                },
+                {
+                    "Address": 832,
+                    "ByteSize": 1
                 },
                 {
                     "Address": 833,
@@ -18503,9 +18616,14 @@
                 },
                 {
                     "Address": 838,
-                    "ByteSize": 3,
+                    "ByteSize": 2,
                     "Flags": 8,
                     "OperandType": 2
+                },
+                {
+                    "Address": 840,
+                    "ByteSize": 3,
+                    "OperandType": 1
                 },
                 {
                     "Address": 843,
@@ -18914,16 +19032,6 @@
                     "InstructionAddressRef": 1193476096
                 },
                 {
-                    "Address": 841,
-                    "DataType": 11,
-                    "InstructionAddressRef": 1195900928
-                },
-                {
-                    "Address": 842,
-                    "DataType": 11,
-                    "InstructionAddressRef": 1195900928
-                },
-                {
                     "Address": 848,
                     "DisplayType": 3
                 },
@@ -19185,11 +19293,6 @@
                     "Name": "CalcCharMapOffsetFromXY"
                 },
                 {
-                    "Address": 828,
-                    "LabelType": 2,
-                    "Name": "label_473C"
-                },
-                {
                     "Address": 848,
                     "Global": true,
                     "LabelType": 0,
@@ -19387,7 +19490,8 @@
                 },
                 {
                     "Address": 139,
-                    "ByteSize": 2
+                    "ByteSize": 2,
+                    "OperandType": 5
                 },
                 {
                     "Address": 141,
@@ -45554,6 +45658,14 @@
             "PageId": 42
         },
         {
+            "LabelInfo": [
+                {
+                    "Address": 1023,
+                    "Global": true,
+                    "LabelType": 0,
+                    "Name": "data_CFFF"
+                }
+            ],
             "PageId": 43
         },
         {
@@ -55602,14 +55714,14 @@
                 },
                 {
                     "Address": 823,
-                    "ByteSize": 1
+                    "ByteSize": 1,
+                    "Flags": 2,
+                    "SMC": true
                 },
                 {
                     "Address": 824,
                     "ByteSize": 1,
-                    "Flags": 2,
-                    "OperandType": 1,
-                    "SMC": true
+                    "OperandType": 1
                 },
                 {
                     "Address": 827,
@@ -56223,9 +56335,9 @@
                     "InstructionAddressRef": 3207987204
                 },
                 {
-                    "Address": 824,
+                    "Address": 823,
                     "DataType": 11,
-                    "InstructionAddressRef": 3208118276
+                    "InstructionAddressRef": 3208052740
                 },
                 {
                     "Address": 825,
