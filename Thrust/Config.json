@@ -5,8 +5,8 @@
         "ViewConfigs": [
             {
                 "Enabled": true,
-                "ViewAddress": 42931,
-                "ViewAddressBank": 4
+                "ViewAddress": 35460,
+                "ViewAddressBank": 0
             },
             {
                 "Enabled": false,
@@ -25,5 +25,10 @@
             }
         ]
     },
-    "SnapshotFile": "Thrust.prg"
+    "Snapshot": {
+        "DisplayName": "Thrust",
+        "FileName": "Thrust.prg",
+        "ListName": "",
+        "Type": 5
+    }
 }
